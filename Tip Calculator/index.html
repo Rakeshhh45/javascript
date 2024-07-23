@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculatior</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tip Calulatior</h1>
+        <p>Enter the bill amount and tip percentage to calculate the tottal.</p>
+        <label for="bill">Bill Amount :</label>
+        <input type="number" id="bill">
+        <br /><br>
+        <label for="bill">Tip Percentage :</label>
+        <input type="number" id="tips">
+        <br /><br>
+        <button id="calculate" onclick="tipcalculatior()">Calculate</button>
+        <br /><br>
+        <div class="rakesh">
+            <div class="lastamount">
+                <label>Amount :</label>
+                <label id="result"></label>
+            </div>
+            <div class="lastamount">
+                <label>Tip :</label>
+                <label id="result1"></label>
+            </div>
+            <div class="lastamount">
+                <label>GST :</label>
+                <label id="result2"></label>
+            </div>
+            <div class="lastamount">
+                <label>Total :</label>
+                <label id="result3"></label>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

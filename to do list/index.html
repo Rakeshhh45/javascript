@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="taskinput">
+            <button class="btn1" onclick="gotoform()">Add Task</button>
+        </form>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th id="user">Name</th>
+                        <th id="tname">TaskName</th>
+                        <th id="lb">Label</th>
+                        <th id="dt">Date</th>
+                    </tr>
+                </thead>
+                <tbody class="rakesh" id="access">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="form" id="direct">
+            <div class="heading">
+                <i onclick="closeform()" class="fa-solid fa-trash-can"></i>
+            </div>
+            <div class="main">
+                <label for="">Name :</label>
+                <input type="text" id="rakesh" required>
+                <label id="result"></label>
+                <br><br>
+                <label for="">Task :</label>
+                <input class=" main1" type="text" id="taskname" required>
+                <label id="result1"></label>
+                <br><br>
+                <label for="">Label :</label>
+                <select class="main2" id="labe">
+                    <option value="">SELECT</option>
+                    <option value="complite">COMPLITE</option>
+                    <option value="start">START</option>
+                    <option value="pending">PENDING</option>
+                </select>
+                <br><br>
+                <label for="">Date :</label>
+                <input class="main3" type="date" id="dte" required>
+                <label id="result3"></label>
+            </div>
+            <div class="btn">
+                <button onclick="openform()">submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

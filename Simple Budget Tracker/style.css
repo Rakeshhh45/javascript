@@ -1,0 +1,157 @@
+.main {
+    background-image: url(img2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exp {
+    font-weight: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 1, 1);
+
+}
+
+.bal {
+    font-weight: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 4, 4);
+    padding-top: 20px;
+    
+}
+
+.par {
+    font-weight: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(8, 8, 8);
+    padding-top: 10px;
+}
+
+.inco{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 70px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+
+.header li{
+    margin-left: 50px;
+}
+
+.rakesh{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+.rakesh1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.rakesh1 li{
+   margin-right: 50px;
+    
+}
+
+.his{
+    font-weight: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(14, 11, 11);
+    margin-right: 130px;
+    
+}
+
+.product{
+    ont-weight: 20px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.new{
+    font-weight: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 8, 3);
+    /* padding-top: 20px; */
+    margin-right: 100pxpx; 
+}
+
+.txt{
+    font-weight: 20px;
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.number{
+    
+    color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    margin-right: 55px;
+    
+} 
+
+.number1{
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
+
+.txt1{
+    font-weight: 20px;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    margin-right: 170px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.btn{
+    height: 50px;
+    border-radius: 15px;
+    
+}
+
+.btn:hover{
+    background-color: cadetblue;
+    color: black;
+}

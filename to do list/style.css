@@ -1,0 +1,113 @@
+.container{
+    height: 800px;
+    width: 100%;
+    background-color: brown;
+   
+}
+
+.taskinput{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+input{
+    width: 200px;
+    height: 25px;
+}
+
+.btn1{
+    height: 31px;
+    width: 100px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+.table{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+.table th{
+    font-size: 50px;
+    padding: 50px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.heading{
+    margin-left: 250px;
+    margin-bottom: 10px;
+
+}
+
+.main{
+    padding-left: 180px;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 300px;
+    
+}
+
+.main input{
+    height: 25px;
+}
+
+.main1{
+    margin-left: 15px;
+    
+}
+
+.main2{
+    height: 25px;
+    margin-left: 3px;
+    width: 175px;
+}
+
+.main3{
+    height: 25px;
+    margin-left: 13px;
+    width: 175px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+button{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    font-size: 20px;
+}
+
+.first{
+    color: white;
+    font-size: 20px;
+   
+    
+}
+
+
+
+
+
+
+
+
